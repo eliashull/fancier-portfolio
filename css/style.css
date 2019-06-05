@@ -1,0 +1,52 @@
+/* BASICS */
+
+body{
+background: #222222;
+}
+
+/* TEXT */
+
+html{
+font-size: 10pt;
+    
+}
+
+body, input, select, textarea {
+color: #dddddd;
+font-family: "Montserrat", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.75;
+}
+
+p, h1, h2, h3, h4, h5{
+letter-spacing: 1px;
+}
+
+a{
+-moz-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+-webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+-ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+color: inherit;
+}
+
+a:hover{
+color: #8715c4;
+text-decoration: none;
+}
+
+/* POSITIONING */
+
+
+
+/* ELEMENTS */
+
+#navigation{
+background-color: #333333;
+color: white;
+font-size: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
