@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Google Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
         <!-- Main Stylesheet -->
             <link href="css/style.css" rel="stylesheet">
 		<!-- Font Awesome Icons -->
@@ -18,36 +18,83 @@
   </head>
   <body>   
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h2 class="masthead-brand">Bryan Elias Hull</h2>
-                <nav class="nav nav-masthead">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-    </div>      
-
-    <div class="d-flex flex-row">
-        <div id="introduction" class="col-md-6">
-            <h4>Introduction</h4>
-            <p>My name is <strong>Bryan Elias Hull</strong> and I’m currently the <strong>Program Manager</strong> for <strong>Digital Publishing</strong> at the <strong><a href="https://library.med.utah.edu/" target="_blank">Eccles Health Sciences Library</a></strong> at the University of Utah. I am enrolled in the <strong>Instructional Design &amp; Educational Technology Master’s Program</strong> within the Department of Education at the University of Utah and projected to graduate Spring of 2020.</p> 
-            <p>This portfolio showcases a sample of my work in instructional design, digital publishing, educational technology, graphic design, video production, web development, and other creative projects I’ve done in the academic setting.</p>
-            <p>If these skills sound like something your company or group has a need for, find your way to the <a href="#contact">contact form</a> and drop me a line.</p>
-        </div><!-- End of col -->
-        <div id="introduction-video" class="col-md-6">
-            <img src="img/video.png" />
-        </div><!-- End of col -->
-    </div>
-
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <p>&copy; 2019 Bryan Elias Hull. All Rights Reserved.</p>
-        </div>
-    </footer>      
+	<div id="sitecontainer" class="container">
+		<div id="header" class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center align-items-center">
+					<h1 class="sitebrand">Bryan Elias Hull</h1>
+				</div>
+				<div class="d-flex justify-content-center align-items-center">
+					<h5>Professional Portfolio</h5>
+				</div>
+			</div>
+		</div>
+		<div id="navigation" class="row">
+			<div class="col">	
+				<ul class="nav justify-content-center">
+					<li class="nav-item">					
+						<a id="introduction_link" class="nav-link active" href="#">Intro</a>
+					</li>
+					<li class="nav-item">
+						<a id="instructionaldesign_link" class="nav-link" href="#instructionaldesign">Instructional Design</a>
+					</li>
+					<li class="nav-item">
+						<a id="digitalpublishing_link" class="nav-link" href="#digitalpublishing">Digital Publishing</a>
+					</li>
+					<li class="nav-item">
+						<a id="graphicdesign_link" class="nav-link" href="#graphicdesign">Graphic Design</a>
+					</li>
+					<li class="nav-item">
+						<a id="videoproduction_link" class="nav-link" href="#videoproduction">Video Production</a>
+					</li>
+					<li class="nav-item">
+						<a id="webdevelopment_link" class="nav-link" href="#webdevelopment">Web Development</a>
+					</li>
+					<li class="nav-item">
+						<a id="curriculumvitae_link" class="nav-link" href="#curriculumvitae">Curriculum Vitae</a>
+					</li>
+					<li class="nav-item">
+						<a id="contact_link" class="nav-link" href="#contact">Contact</a>
+					</li>				
+				</ul>
+			</div>
+		</div>
+		<div id="sitecontent" class="row">
+			<div class="col-md-6">
+				<h4>Introduction</h4>
+				<p>My name is <strong>Bryan Elias Hull</strong> and I’m currently the <strong>Program Manager</strong> for <strong>Digital Publishing</strong> at the <a href="https://library.med.utah.edu/" target="_blank">Eccles Health Sciences Library</a> at the University of Utah. I am enrolled in the <a href="https://ed-psych.utah.edu/instructional-design/">Instructional Design &amp; Educational Technology Master’s Program</a> within the Department of Education at the University of Utah and projected to graduate Spring of 2020.</p> 
+				<p>This portfolio showcases a sample of my work in:</p>
+					<ul>
+						<li><a href="#instructionaldesign">Instructional Design</a></li>
+						<li><a href="#digitalpublishing">Digital Publishing</a></li>
+						<li><a href="#instructionaldesign">Educational Technology</a></li>
+						<li><a href="#graphicdesign">Graphic Design</a></li>
+						<li><a href="#videoproduction">Video Production</a></li>
+						<li><a href="#webdevelopment">Web Development</a></li>
+						<li><a href="#curriculumvitae">and more...</a></li>
+					</ul>
+				<p>If these skills sound like something your group has interest in, <a href="#contact">drop me a line.</a></p>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex justify-content-center align-items-center">
+					<img src="img/portrait.jpg" class="rounded-circle" alt="Bryan Elias Hull, Big Business Mogul, circa 2017.">
+				</div>
+			</div>
+		</div>	
+		<div id="footer" class="flex-row">
+				<div class="d-flex justify-content-center align-items-center">
+					<p><sub>&copy; 2019 Bryan Elias Hull. All Rights Reserved.</sub></p>
+				</div>
+				<div class="d-flex justify-content-center align-items-center">
+					<p>
+						<a href="https://www.instagram.com/eliashull" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a> 
+						<a href="https://www.twitter.com/dabicyclez0ne" class="social-link" target="_blank"><i class="fab fa-twitter-square"></i></a>   
+						<a href="https://www.strava.com/athletes/bryanhull" class="social-link" target="_blank"><i class="fab fa-strava"></i></a>
+						<a href="https://www.linkedin.com/bryaneliashull" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+						<a href="https://github.com/eliashull" class="social-link" target="_blank"><i class="fab fa-github-square"></i></a>
+					</p>
+				</div>
+		</div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -55,5 +102,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/variables.js"></script>
+	
   </body>
 </html>
