@@ -1,9 +1,9 @@
 /* BASICS */
 
 body{
-background: #41295a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #e3e3e3, #b2b2b2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #e3e3e3, #b2b2b2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #e3e3e3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e3e3e3, #c3c3c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e3e3e3, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* TEXT */
@@ -96,6 +96,18 @@ a:hover{
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+
+.fas {
+	background: #7303c0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 55px;
+	color: #e3e3e3;
+	}
 
 .nav-link{
 	margin-right: 10px;
