@@ -117,6 +117,28 @@ strong{
 	margin-right: 0px;
 }
 
+/** TRYING TO MAKE THE TAB VIEW WORK WITHOUT ANY STYLING FROM BOOTSTRAP **/
+
+.nav-tabs .nav-link {
+    border-style:hidden;
+	border: none;
+	border-bottom: none;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-style:hidden;
+	border-color: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-style:hidden;
+	color: none;
+    background-color: none;
+    border-color: none
+}
+
+/** DELETE ABOVE **/
+
 img.rounded-circle{
 	margin: 20%;
 	max-width: 60%;
