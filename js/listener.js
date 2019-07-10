@@ -43,10 +43,12 @@ $("#input_ico_locate").on('click',function(){
 
 introduction_link.addEventListener("click",function(){
     console.log("Hello World! introduction_link is doing a thing?");
+    router("intro_container");
 });
 
 instructionaldesign_link.addEventListener("click",function(){
     console.log("Hello World! instructionaldesign_link is doing a thing?");
+    router("instructionaldesign_container");
 });
 
 digitalpublishing_link.addEventListener("click",function(){

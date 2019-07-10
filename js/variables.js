@@ -69,7 +69,7 @@ console.log(input_btn_now);
 
 */
 
-// Bryan is making variables now 5/28/2019
+// Link variables
 
 var introduction_link = document.getElementById("introduction_link");
 console.log(introduction_link);
@@ -95,4 +95,10 @@ console.log(curriculumvitae_link);
 var contact_link = document.getElementById("contact_link");
 console.log(contact_link);
 
+//View variables
 
+var intro_container = document.getElementById("intro_container");
+console.log(intro_container);
+
+var instructionaldesign_container = document.getElementById("instructionaldesign_container");
+console.log(instructionaldesign_container);
