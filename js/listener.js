@@ -40,37 +40,42 @@ $("#input_ico_locate").on('click',function(){
 })
 */
 
-
-introduction_link.addEventListener("click",function(){
-    console.log("Hello World! introduction_link is doing a thing?");
+intro_link.addEventListener("click",function(){
+    console.log("Hello World! intro_link is being listened to.");
     router("intro_container");
 });
 
 instructionaldesign_link.addEventListener("click",function(){
-    console.log("Hello World! instructionaldesign_link is doing a thing?");
+    console.log("Hello World! instructionaldesign_link is being listened to.");
     router("instructionaldesign_container");
 });
 
 digitalpublishing_link.addEventListener("click",function(){
-    console.log("Hello World! digitalpublishing_link is doing a thing?");
-});
-
-graphicdesign_link.addEventListener("click",function(){
-    console.log("Hello World! graphicdesign_link is doing a thing?");
-});
-
-videoproduction_link.addEventListener("click",function(){
-    console.log("Hello World! videoproduction_link is doing a thing?");
+    console.log("Hello World! digitalpublishing_link is being listened to.");
+	router("digitalpublishing_container");
 });
 
 webdevelopment_link.addEventListener("click",function(){
-    console.log("Hello World! webdevelopment_link is doing a thing?");
+    console.log("Hello World! webdevelopment_link is being listened to.");
+	router("webdevelopment_container");
+});
+
+videoproduction_link.addEventListener("click",function(){
+    console.log("Hello World! videoproduction_link is being listened to.");
+	router("videoproduction_container");
+});
+
+graphicdesign_link.addEventListener("click",function(){
+    console.log("Hello World! graphicdesign_link is being listened to.");
+	router("graphicdesign_container");
 });
 
 curriculumvitae_link.addEventListener("click",function(){
-    console.log("Hello World! curriculumvitae_link is doing a thing?");
+    console.log("Hello World! curriculumvitae_link is being listened to.");
+	router("curriculumvitae_container");
 });
 
 contact_link.addEventListener("click",function(){
-    console.log("Hello World! contact_link is doing a thing?");
+    console.log("Hello World! contact_link is being listened to.");
+	router("contact_container");
 });

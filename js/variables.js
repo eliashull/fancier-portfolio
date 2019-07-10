@@ -71,8 +71,8 @@ console.log(input_btn_now);
 
 // Link variables
 
-var introduction_link = document.getElementById("introduction_link");
-console.log(introduction_link);
+var intro_link = document.getElementById("intro_link");
+console.log(intro_link);
 
 var instructionaldesign_link = document.getElementById("instructionaldesign_link");
 console.log(instructionaldesign_link);
@@ -80,14 +80,14 @@ console.log(instructionaldesign_link);
 var digitalpublishing_link = document.getElementById("digitalpublishing_link");
 console.log(digitalpublishing_link);
 
-var graphicdesign_link = document.getElementById("graphicdesign_link");
-console.log(graphicdesign_link);
+var webdevelopment_link = document.getElementById("webdevelopment_link");
+console.log(webdevelopment_link);
 
 var videoproduction_link = document.getElementById("videoproduction_link");
 console.log(videoproduction_link);
 
-var webdevelopment_link = document.getElementById("webdevelopment_link");
-console.log(webdevelopment_link);
+var graphicdesign_link = document.getElementById("graphicdesign_link");
+console.log(graphicdesign_link);
 
 var curriculumvitae_link = document.getElementById("curriculumvitae_link");
 console.log(curriculumvitae_link);
@@ -95,10 +95,29 @@ console.log(curriculumvitae_link);
 var contact_link = document.getElementById("contact_link");
 console.log(contact_link);
 
-//View variables
+//Container variables
 
 var intro_container = document.getElementById("intro_container");
 console.log(intro_container);
 
 var instructionaldesign_container = document.getElementById("instructionaldesign_container");
 console.log(instructionaldesign_container);
+
+var digitalpublishing_container = document.getElementById("digitalpublishing_container");
+console.log(digitalpublishing_container);
+
+var webdevelopment_container = document.getElementById("webdevelopment_container");
+console.log(webdevelopment_container);
+
+var videoproduction_container = document.getElementById("videoproduction_container");
+console.log(videoproduction_container);
+
+var graphicdesign_container = document.getElementById("graphicdesign_container");
+console.log(graphicdesign_container);
+
+var curriculumvitae_container = document.getElementById("curriculumvitae_container");
+console.log(curriculumvitae_container);
+
+var contact_container = document.getElementById("contact_container");
+console.log(contact_container);
+
