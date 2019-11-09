@@ -1,9 +1,9 @@
 /* BASICS */
 
 body{
-background: #e3e3e3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #e3e3e3, #c3c3c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #e3e3e3, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ffffff;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #e3e3e3, #c3c3c3);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #e3e3e3, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* TEXT */
@@ -85,9 +85,9 @@ strong{
 /* ELEMENTS */
 
 #headernav{
-	background: #e3e3e3;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #e3e3e3, #c3c3c3);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #e3e3e3, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background: #ffffff;  /* fallback for old browsers */
+	/* background: -webkit-linear-gradient(to right, #e3e3e3, #c3c3c3);  /* Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(to right, #e3e3e3, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
 }
 
 #header{
@@ -116,7 +116,7 @@ strong{
     line-height: 100px;
     vertical-align: middle;
     padding: 58px;
-	color: #e3e3e3;
+	color: #ffffff;
 	}
 
 .nav-item{
