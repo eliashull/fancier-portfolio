@@ -14,8 +14,8 @@ font-size: 12pt;
 }
 
 body, input, select, textarea {
-	font-family: 'Montserrat', sans-serif;
-	color: #303030;
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.75;
@@ -41,7 +41,7 @@ a{
 	-webkit-transition: border-bottom 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: border-bottom 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: border-bottom 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;	
-	color: #303030;
+	color: #111111;
 	border-bottom: dotted 1px;
 }
 
@@ -61,7 +61,7 @@ strong{
 }
 
 .sitebrand{
-	color: #303030;
+	color: #111111;
 	border-bottom: none;
 }
 
