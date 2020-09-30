@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Google Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
         <!-- Main Stylesheet -->
             <link href="css/style.css" rel="stylesheet">
 		<!-- Font Awesome Icons -->
@@ -17,6 +17,28 @@
         <title>Bryan Elias Hull | Portfolio</title>
 	</head>
 	<body>
+	
+		<div class="fixed-top">
+			<div class="collapse" id="navbarToggleExternalContent">
+				<div class="bg-light p-4">
+					<h5 class="heading"><a href="/"><span class="underline--magical">BRYAN</span> ELIAS HULL</a></h5>
+					<div class="d-flex">
+						<ul>
+							<li class="nav-link"><a href="/portfolio">Portfolio</a></li>
+							<li class="nav-link"><a href="/photography">Photography</a></li>
+							<li class="nav-link"><a href="/music">Music</a></li>
+							<li class="nav-link"><a href="/">Home</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				<nav class="navbar navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</nav>
+		</div>
+	
     <!-- Button to return to Top -->
         <button onclick="topFunction()" id="topbutton" title="Go to top">RETURN TO TOP</button>
 	<!-- CONTAINER for HEADER and NAVIGATION -->
@@ -35,7 +57,7 @@
 				<div class="col">	
 					<ul class="nav justify-content-center">
 						<li class="nav-item">	
-							<a id="intro_link" class="nav-link active" href="#">Intro</a>
+							<a id="intro_link" class="nav-link" href="#">Intro</a>
 						</li>
 						<li class="nav-item">
 							<a id="instructionaldesign_link" class="nav-link" href="#">Instructional Design</a>
